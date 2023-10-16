@@ -1,0 +1,23 @@
+Programm schreiben welches folgendes kann,
+
+-> etwa 10 Dateien mit beliebigen Dateinamen aus Ordner öffnen
+-> Dateien sind eine csv Datei mit ; getrennt
+-> 1. Zeile ist folgende Überschrift: Name | Vorname | Matr. Nr. | A1 | A2 | A3
+	-> Darunter dann die Daten
+-> für jeden Studenten eine Datei anlegen und schreiben mit allen von ihm bearbeiteten Tests
+-> Eine gesamte Datei mit allen Studenten bzw. ihren Matr.Nrn erzeugen in der die erreichte %-Zahl steht
+	-> 100 % ist maximal erreichbar
+
+Tipps:
+-> Nutzen der Pandas Bibliothek
+-> Testdatei mit künstlichem Inhalt selber schreiben
+-> Fehlerfälle überlegen
+
+Überprüfungssituation:
+-> Er gibt uns Input Dateien und unser Programm muss gewünschte Output-Datei erzeugen
+-> Code ggf. erklären vor allem wenn was nicht funktioniert
+
+
+Mögliche Fehler:
+-> Keine .csv-Datei im Verzeichnis sondern z.B. .txt oder .word
+-> Sonderzeichen im Dateinamen -> Unproblematisch
